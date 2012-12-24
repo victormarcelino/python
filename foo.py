@@ -12,4 +12,4 @@ class Foo(object):
 
 	@bar.setter
 	def bar(self, bar):
-		self._bar = bar
+		self._bar = int(bar)
